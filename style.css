@@ -1,0 +1,136 @@
+#body {
+    margin: 0px;
+    padding: 0px;
+    background: url(gym.jpg);
+    color: white;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Tektur', cursive;
+}
+#title{
+    color: rgb(103, 173, 213);
+}
+
+.left {
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 34px;
+
+}
+
+.left img {
+    width: 83px;
+}
+
+.left div {
+    text-align: center;
+
+}
+
+.mid {
+    /* border: 2px solid green; */
+    margin: 20px auto;
+    display: block;
+    width: 46%;
+
+}
+
+.right {
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 34px;
+}
+
+.navbar {
+    display: inline-block;
+    
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+.navbar li a {
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover {
+    color: rgb(236, 14, 14);
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Tektur', cursive;
+    margin: 0px 9px;
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(181, 126, 126);
+    padding: 7px 8px;
+    border: 2px solid gray;
+    font-size: 14px;
+    cursor: pointer;
+    border-color: yellow;
+}
+
+.btn:hover {
+    background-color: rgb(212, 57, 57);
+    color: aqua;
+}
+
+.container {
+    /* border: 2PX solid white; */
+    margin: 132px 200px;
+    padding: 19px;
+    width: 70%;
+    justify-content: center;
+    font-size: 40px;
+    
+
+}
+
+.form-group input {
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Tektur', cursive;
+    text-align: center;
+    width: 202px;
+    padding: 5px 17px;
+    display: block;
+    margin: 2px auto;
+    border-radius: 79px;
+}
+
+.container button {
+    display: block;
+    width: 236px;
+    margin: 23px auto;
+}
+.container h1{
+    text-align: center;
+    color: aquamarine
+}
+.container h3{
+    text-align: center;
+    color: blueviolet;
+}
+.container h1:hover{
+    color: rgb(201, 234, 124);
+}
+.container h3:hover{
+    color: rgb(223, 152, 46);
+}
+.footer{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    padding-top: 15px;
+}

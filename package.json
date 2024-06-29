@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "@mysql/xdevapi": "^8.0.33",
+    "axios": "^1.5.1",
+    "bluebird": "^3.7.2",
+    "body": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "html": "^1.0.0",
+    "index.js": "^0.0.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.2",
+    "parser": "^0.1.4",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  },
+  "name": "db1",
+  "version": "1.0.0",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
